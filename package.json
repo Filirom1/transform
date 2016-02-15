@@ -1,0 +1,26 @@
+{
+  "name": "transform",
+  "version": "0.0.1",
+  "description": "Transforms an existing object into a new one based on the supplied obj and transform map",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Filirom1/transform.git"
+  },
+  "author": "Filirom1 <Filirom1@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Filirom1/transform/issues"
+  },
+  "homepage": "https://github.com/Filirom1/transform#readme",
+  "devDependencies": {
+    "code": "^2.1.0",
+    "lab": "^8.2.0"
+  }
+}
