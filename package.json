@@ -1,5 +1,5 @@
 {
-  "name": "transform",
+  "name": "transform-hoek",
   "version": "0.0.1",
   "description": "Transforms an existing object into a new one based on the supplied obj and transform map",
   "main": "index.js",

@@ -11,18 +11,6 @@ A substract of [hapijs/hoek](https://raw.githubusercontent.com/hapijs/hoek) to b
   * [assert](#assertcondition-message "assert")
 
 
-### stringify(obj)
-
-Converts an object to string using the built-in `JSON.stringify()` method with the difference that any errors are caught
-and reported back in the form of the returned string. Used as a shortcut for displaying information to the console (e.g. in
-error message) without the need to worry about invalid conversion.
-
-```javascript
-var a = {};
-a.b = a;
-Hoek.stringify(a);    // Returns '[Cannot display object: Converting circular structure to JSON]'
-```
-
 
 ### reach(obj, chain, [options])
 
@@ -83,6 +71,18 @@ var result = Hoek.transform(source, {
 //     },
 //     title: 'Warehouse'
 // }
+```
+
+### stringify(obj)
+
+Converts an object to string using the built-in `JSON.stringify()` method with the difference that any errors are caught
+and reported back in the form of the returned string. Used as a shortcut for displaying information to the console (e.g. in
+error message) without the need to worry about invalid conversion.
+
+```javascript
+var a = {};
+a.b = a;
+Hoek.stringify(a);    // Returns '[Cannot display object: Converting circular structure to JSON]'
 ```
 
 
